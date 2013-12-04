@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'sinatra'
-require 'Open3'
+require 'open3'
 
 get '/' do
   Open3.popen3('./stockfish') do |i,o,e,t|

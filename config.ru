@@ -1,5 +1,5 @@
 require 'rubygems'
 require 'sinatra'
 
-require 'app'
+require '/home/bsprague/live/sinatrafish/sinatrafish.rb'
 run Sinatra::Application
